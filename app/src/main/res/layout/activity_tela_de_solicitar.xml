@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADCDF0"
+    tools:context=".tela_de_solicitar">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Qual serviço deseja solicitar ?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="399dp"
+        android:layout_height="441dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnAvanca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBox29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serviços de Jardinagem" />
+
+            <CheckBox
+                android:id="@+id/checkBox28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serviços de Eletricista " />
+
+            <CheckBox
+                android:id="@+id/checkBox27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serviços de Transporte" />
+
+            <CheckBox
+                android:id="@+id/checkBox26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serviços de Mecânica" />
+
+            <CheckBox
+                android:id="@+id/checkBox25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serviços de Pintura" />
+
+            <CheckBox
+                android:id="@+id/checkBox17"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Serviços de Serralheiro"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="333dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox18"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Serviços de pedreiro"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="467dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox19"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Serviços financeiros"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="536dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox20"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Montador Móveis"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="400dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox21"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Serviços de limpeza"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="203dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox22"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:text="Serviços de informatica"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="273dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox23"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Serviços de Carpintaria"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox24"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Encanamento em geral"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="133dp" />
+
+            <TextView
+                android:id="@+id/textViewOutros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Outros:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="619dp" />
+
+            <EditText
+                android:id="@+id/txtOutros"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:ems="10"
+                android:inputType="textPersonName|text"
+                tools:layout_editor_absoluteX="91dp"
+                tools:layout_editor_absoluteY="596dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnAvanca"
+        android:layout_width="105dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTintMode="screen"
+        android:onClick="btnAvanca"
+        android:text="Avançar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintStart_toEndOf="@+id/btnCancelar" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="105dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTintMode="screen"
+        android:onClick="btnCancelar"
+        android:text="Cancelar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

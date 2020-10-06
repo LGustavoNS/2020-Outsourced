@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Outsourced</string>
+    <string name="usuario">Usuario</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="nome">Nome Completo</string>
+    <string name="dnasc">Data de Nascimento</string>
+    <string name="sexo">Sexo</string>
+    <string name="cpf">CPF</string>
+    <string name="email">E-mail</string>
+    <string name="confirmaremail">Confirmar Email</string>
+    <string name="telefone">Telefone</string>
+    <string name="celular">Celular</string>
+    <string name="senha_prest">Senha</string>
+    <string name="confir_senha_prest">Confirmar Senha</string>
+    <string name="registro">Registro</string>
+    <string name="title_activity_tela_de_login">tela_de_login</string>
+    <string name="title_activity_tela_de_registrar">tela_de_registrar</string>
+    <string name="title_activity_tela_de_solicitar">tela_de_solicitar</string>
+    <string name="title_activity_tela_maps">Map</string>
+</resources>

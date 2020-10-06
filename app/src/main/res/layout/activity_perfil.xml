@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PerfilActivity">
+
+    <ImageView
+        android:id="@+id/imgcadprest"
+        android:layout_width="125dp"
+        android:layout_height="146dp"
+        tools:srcCompat="@tools:sample/avatars[15]"/>
+
+    <TextView
+        android:id="@+id/txtnome"
+        android:layout_width="286dp"
+        android:layout_height="22dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/nome"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="22dp" />
+
+    <TextView
+        android:id="@+id/txtidade"
+        android:layout_width="127dp"
+        android:layout_height="23dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Idade"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <EditText
+        android:id="@+id/edtidade"
+        android:layout_width="127dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="158dp"
+        android:layout_height="23dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/dnasc"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="159dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <TextView
+        android:id="@+id/sexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/sexo"
+        android:textAlignment="viewEnd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <EditText
+        android:id="@+id/editsexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/telefone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <EditText
+        android:id="@+id/telefone2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/celular"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <EditText
+        android:id="@+id/celular2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <Spinner
+        android:id="@+id/tela_servico2"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:entries="@array/tela_servico"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="362dp">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Especialidade"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+</LinearLayout>
